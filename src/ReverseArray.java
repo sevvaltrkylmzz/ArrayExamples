@@ -16,9 +16,9 @@ public class ReverseArray {
         for (int i=0;i<length;i++){
             arr[i]=scanner.nextInt();
         }
-        System.out.println("Diziniz : "+Arrays.toString(arr));
+        System.out.println("Your array is : "+Arrays.toString(arr));
         reverseArray(arr);
-        System.out.println("Dizinin ters şekli : "+Arrays.toString(arr));
+        System.out.println("The reversed version of your  array is : "+Arrays.toString(arr));
     }
     private static void reverseArray(int[] array)
     {
